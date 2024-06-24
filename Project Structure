@@ -1,0 +1,22 @@
+ecommerce-app/
+├── user-auth-service/
+│   ├── app.py
+│   ├── models.py
+│   ├── routes.py
+│   └── tests/
+├── product-management-service/
+│   ├── app.py
+│   ├── models.py
+│   ├── routes.py
+│   └── tests/
+├── order-processing-service/
+│   ├── app.py
+│   ├── models.py
+│   ├── routes.py
+│   └── tests/
+├── docker-compose.yml
+├── k8s/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── ingress.yaml
+└── README.md
